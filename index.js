@@ -31,6 +31,7 @@ server.post("/students", (req, res) => {
     res.json(newStudent);
 });   
 
+
 server.put("/students/:id", (req, res) => {
     const id = Number(req.params.id);
 
