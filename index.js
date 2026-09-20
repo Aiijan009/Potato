@@ -18,6 +18,7 @@ server.get("/", (req, res) => {
 
 });
 
+
 server.get("/students", (req, res) => {
     res.json(students);
 });
